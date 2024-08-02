@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>X Portfolio</title>
+    <title>Madelyn Torff</title>
     <!--tailwind and daisyui link-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,10 +12,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
+    <!--Playfair Display Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 
     <style>
         .nunito{
             font-family: "Nunito", sans-serif;
+        }
+        .Playfair{
+            font-family: "Playfair Display", serif;
         }
     </style>
     
@@ -52,6 +59,25 @@
             </div>
         </div>
     </header>
-    
+    <main class="ml-56 mr-56">
+        <h2 class="font-bold text-5xl text-center text-[#25282B]">Projects</h2>
+        <section class="mt-20">
+            <div class="card card-side  shadow-xl">
+                <div class="card-body flex justify-center px-32 gap-6">
+                  <h2 class="card-title text-[#25282B] text-4xl font-bold Playfair">Project Name</h2>
+                  <p class="font-normal	text-lg nunito text-[#828282] grow-0">I created this personal project in order to show <br> how to create an interface in Figma using a <br> portfolio as an example.</p>
+                  <div class="card-actions">
+                    <button class="btn border rounded-3xl border-[#25282B] bg-white text-[#25282B] hover:text-white">View Project</button>
+                  </div>
+                </div>
+                <figure>
+                    <img
+                      src="images/pic-1.jpeg"
+                      class="h-[496px] w-[526px]"/>
+                </figure>
+            </div>
+        </section>
+    </main>
+     
 </body>
 </html>
